@@ -13,8 +13,8 @@ define([
 
     rendererList.push(
         {
-            type: 'web',
-            component: 'Magefox_MoMo/js/view/payment/method-renderer/web'
+            type: 'momo',
+            component: 'Magefox_MoMo/js/view/payment/method-renderer/momo'
         }
     );
 

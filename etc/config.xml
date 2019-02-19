@@ -12,9 +12,18 @@
         <payment>
             <momo>
                 <active>1</active>
-                <model>Magefox\MoMo\Model\Gateway</model>
+                <model>MoMoFacade</model>
+                <payment_action>capture</payment_action>
+                <is_gateway>1</is_gateway>
+                <can_use_checkout>1</can_use_checkout>
+                <can_authorize>1</can_authorize>
+                <can_capture>1</can_capture>
+                <can_refund>1</can_refund>
+                <can_void>1</can_void>
                 <title>MoMo</title>
                 <endpoint><![CDATA[https://payment.momo.vn/gw_payment/transactionProcessor]]></endpoint>
+                <access_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                <secret_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
                 <order_status>pending</order_status>
                 <allowspecific>0</allowspecific>
             </momo>

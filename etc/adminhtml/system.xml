@@ -20,7 +20,7 @@
                     <label>Title</label>
                 </field>
                 <field id="endpoint" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
-                    <label>Merchant Gateway Key</label>
+                    <label>Endpoint</label>
                 </field>
                 <field id="partner_code" translate="label" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Partner Code</label>
